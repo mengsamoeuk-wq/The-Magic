@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.local-data/
+certificates/
+.tools/
+.env*
+!.env.example
+scripts/
+Install-Windows.cmd
+Start-Windows.cmd
+Install-Mac.command
+Start-Mac.command

@@ -1,0 +1,257 @@
+{
+  "package": "VST Assistant Team",
+  "version": "0.2.0",
+  "releaseDate": "2026-10-26",
+  "defaultBotEnabled": false,
+  "personalCredentialsIncluded": false,
+  "excluded": [
+    ".env.local",
+    ".local-data",
+    "certificates",
+    ".tools",
+    "node_modules",
+    ".next"
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "42c8aa5b3abccf27f34390ab62863b1282106a6cd0c36ae31007b61e13914b33"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "1d3b74410ae731d884ada4ef54cc7305c5123d6f8bf7c55bd315d9624fdf75b9"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "063098f6cb31bb44c6f8fbea25b3876de7ee1e5f7d00a50dbab506f6415eb7f0"
+    },
+    {
+      "path": "ANTIGRAVITY_INSTRUCTIONS.md",
+      "sha256": "1c4f5e2da6bc88b76645f15871406d06154497546edd26372afb46e72890fb37"
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49"
+    },
+    {
+      "path": "FACEBOOK_SETUP_KM.md",
+      "sha256": "cc9863159d5700e19979ecb56fc3f80290704aa50b2450a4e0b2c64e53978fa7"
+    },
+    {
+      "path": "HOW_TO_USE.md",
+      "sha256": "8eac5207d342720e608212d1606da10c8971274429b27e2f1ed3799976288ff8"
+    },
+    {
+      "path": "Install-Mac.command",
+      "sha256": "119d4ccf32edf4ff2080f4628f0b1eb1b6f9b920819726a03f8256008d0aaefa"
+    },
+    {
+      "path": "Install-Windows.cmd",
+      "sha256": "d757f957bbc65d9d69a6ada6bc12a21c5c66a2d282f9646357b637bb7aa59835"
+    },
+    {
+      "path": "README.md",
+      "sha256": "50215ae705ab1f0b365cf76c38156dab2082071d04b38e86391d7ff6bd875ecd"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "sha256": "8e16ee6529784db9b62d4eb5dec4320c0a6962b6fbc3c760667b82b5736e3e9a"
+    },
+    {
+      "path": "ROADMAP.md",
+      "sha256": "09ac8f9e96b4f3d4fbc8a088c8f3302c00df2363d5370a20984d035bddfebc2f"
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "62bd37cdcf0a75c07ea72b3aa1bdcfb6942c733107abae77a643f2f0cb2bca67"
+    },
+    {
+      "path": "Start-Mac.command",
+      "sha256": "4793367c34fa8b8a3fe3a27c630b4a248b94d2a427e41af6997c1b1ec5c26ffa"
+    },
+    {
+      "path": "Start-Windows.cmd",
+      "sha256": "055aafbc4746de40347bd3de8e5ec78981c589ce793abc88a396e250cc6f47aa"
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "a2ac2de19baedcf4b3791bfbc04b0abca257f2c38c3ad7f6ce57d0664b3faae3"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "sha256": "870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493"
+    },
+    {
+      "path": "next-env.d.ts",
+      "sha256": "0f70629890b72a0a82e91972cc032c04b658b26c265373cb711cf576bfbf8fcc"
+    },
+    {
+      "path": "next.config.ts",
+      "sha256": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "98d155aaca3eb6ae723f659f82d04b30549917d73e787d1eb7a2e38436861194"
+    },
+    {
+      "path": "package.json",
+      "sha256": "05b8e3bab043da17e603b55aae2f61ed88978f2f2c3e6d8f99a837223b05e393"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde"
+    },
+    {
+      "path": "public/file.svg",
+      "sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4"
+    },
+    {
+      "path": "public/globe.svg",
+      "sha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf"
+    },
+    {
+      "path": "public/next.svg",
+      "sha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc"
+    },
+    {
+      "path": "public/vercel.svg",
+      "sha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4"
+    },
+    {
+      "path": "public/vst-logo.jpg",
+      "sha256": "09779d4420b9f88c890a02b2487fc44f8a230c4446fc9f469ee7b5b8bd2298d5"
+    },
+    {
+      "path": "public/window.svg",
+      "sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1"
+    },
+    {
+      "path": "scripts/check-local.mjs",
+      "sha256": "5d2e8153ae2f6b65b374e4c36fdc63a8047caf94bea559228efe6a8f2a98ba8e"
+    },
+    {
+      "path": "scripts/setup-local.mjs",
+      "sha256": "a15ccff90499788df2c006eec433b6a569fd1fa92eea750368cbde47b25e68fc"
+    },
+    {
+      "path": "scripts/start-local.mjs",
+      "sha256": "032b9e83d1c4c7379e52feff59b5c5ffaf28324c1148500ae94db90e7614b338"
+    },
+    {
+      "path": "src/app/api/ads-manager/route.ts",
+      "sha256": "d33fddce4502e13538762469f03a226a1d8f630cb3753a8a49e01a586689c7b9"
+    },
+    {
+      "path": "src/app/api/ai-chat/route.ts",
+      "sha256": "ff8db8a861d15d4d194d7adf67fcd028e41a9d3d94e1ca10f723e56754a32c21"
+    },
+    {
+      "path": "src/app/api/ai-knowledge/route.ts",
+      "sha256": "46cbe82c2bf9f1f9a60b3e8f604be3ee9e203cfa2054e1be049ceef1984fa775"
+    },
+    {
+      "path": "src/app/api/auth/facebook/route.ts",
+      "sha256": "de292f2bb50ab758d40033dcc560bbf6e9f3ddf59882782f49ecf9127656d357"
+    },
+    {
+      "path": "src/app/api/auth/login/route.ts",
+      "sha256": "f93c368d98dffe0901bcd705a6179898f37ed05e52c3c9af4a66973031144369"
+    },
+    {
+      "path": "src/app/api/auto-scanner/route.ts",
+      "sha256": "c394bbbafd767a8da21c10a9a45c6a371fcb5c1b2f136036f2521b729474a969"
+    },
+    {
+      "path": "src/app/api/bot-settings/route.ts",
+      "sha256": "bcfa71a36caf1a06be6a7b8fd4ef0a41ed955b458ee0b7a0bf1ecbe31af3b7fa"
+    },
+    {
+      "path": "src/app/api/bot-status/route.ts",
+      "sha256": "8da3d9e2d499905200089a8ddc116b9d638d9f23694666c67f4b1ee91c345763"
+    },
+    {
+      "path": "src/app/api/customers/route.ts",
+      "sha256": "d303a5bdd1398a2dd19b8fa1b66205009917185e47e70cddf3d3d26e89459c7b"
+    },
+    {
+      "path": "src/app/api/members/route.ts",
+      "sha256": "71792f79ca830b5c30edf2686029b516b3282b87bd6d902bf3dccaaa03045f60"
+    },
+    {
+      "path": "src/app/api/pages/route.ts",
+      "sha256": "790500ebb7c043df322c7b18120d47c1c91d7c2042efcb6e5e2dc5b47f46441d"
+    },
+    {
+      "path": "src/app/api/story-publisher/route.ts",
+      "sha256": "f017537bec38018a0fd9a035d971e76534abbcb6cf1c18389c6d9057c9ce3112"
+    },
+    {
+      "path": "src/app/api/video-publisher/route.ts",
+      "sha256": "88d3ed0dcba4f2ae64aa93b2bbc1a169a36a6ab3320f3b04d9fa1baccbaffc87"
+    },
+    {
+      "path": "src/app/api/webhook/route.ts",
+      "sha256": "ec3bc3dd04b2a80988dce792f90b4b71a28a07f29576b5c782aa2d782d6b8785"
+    },
+    {
+      "path": "src/app/favicon.ico",
+      "sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932"
+    },
+    {
+      "path": "src/app/globals.css",
+      "sha256": "1a60566ccfa844f7e632bf1d7054be856d59a58990a7a4006f5f83f405c987c5"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "sha256": "0a03736190f73ba93a24a8c4e846cd8be947848a560ffd981b884bc357bf820d"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "sha256": "99d114e035d8bb43e8a394cf252ea9d057d2961b45ef4212dd60d1332ea77eb7"
+    },
+    {
+      "path": "src/app/privacy/page.tsx",
+      "sha256": "0c588c8c596186332c356f2621ca3361831d79e2d9525545cc997bfc71d0d103"
+    },
+    {
+      "path": "src/app/terms/page.tsx",
+      "sha256": "cb5c9c8c3d23c9f8b07dca868c597e88e6f7f855de0163c95713f3128e15673f"
+    },
+    {
+      "path": "src/components/AdsManagerTab.tsx",
+      "sha256": "2680ce6d1cb38bc4769705c19ee6ef37801bd07b9b40f0cb2fb875fd21f69918"
+    },
+    {
+      "path": "src/components/StoryBatchPublisherTab.tsx",
+      "sha256": "8f365668cbe0dbb986c3a2f71efa94cdbe9c59b3e4f473f51a6b5e837f29beed"
+    },
+    {
+      "path": "src/components/VideoPublisherTab.tsx",
+      "sha256": "dbd47c4d19ff670a1d8444a27c1eb2dd20096063d6684ccd4d9a19b4fe65a6db"
+    },
+    {
+      "path": "src/lib/facebook.ts",
+      "sha256": "d17f8e9d13668653592702d10c00f24535b69dda3c43746b3f7823f06224c54d"
+    },
+    {
+      "path": "src/lib/gemini.ts",
+      "sha256": "7e753c0959c49df6df80dfa6ccdfba9fd483387131d2e5c7a03b08b7cfef8966"
+    },
+    {
+      "path": "src/lib/i18n.ts",
+      "sha256": "86ba64d4e6bee6854ff653db9489cdd1c785da5cd81f3d4427cd305e259e64c7"
+    },
+    {
+      "path": "src/lib/server-database.ts",
+      "sha256": "504686f8fd8b80f08110db115b32fbd5827543641b36ea8749143a3cc7f97efb"
+    },
+    {
+      "path": "src/lib/supabase.ts",
+      "sha256": "425586663adfb4f386145e2fb6c7327512b98b326ed59b56bd1b7feaa62e4170"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "5c51df4c59f4510d8c7dadf07a5c32132228826a3b331da5e286207b4df7ef9c"
+    }
+  ]
+}
