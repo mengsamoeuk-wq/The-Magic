@@ -276,7 +276,7 @@ export async function GET(req: NextRequest) {
                 if (!replyMessage) {
                   const replyTextTemplate =
                     page.replyTemplate ||
-                    `សួស្ដី {name}! 😊 អរគុណសម្រាប់ការចាប់អារម្មណ៍លើទំព័រ ${page.name}។ ខ្ញុំបានផ្ញើព័ត៌មានលម្អិតជូនបងហើយណា 💬👉 https://m.me/${page.id}`;
+                    `សួស្ដី {name}! 😊 អរគុណសម្រាប់ការចាប់អារម្មណ៍លើគ្រីមជប៉ុន The Magic 🇯🇵។ ខ្ញុំបានផ្ញើតម្លៃប្រូម៉ូសិនពិសេសជូនបងក្នុង Inbox រួចហើយណា៎ 💬👉 https://m.me/${page.id}`;
                   replyMessage = replyTextTemplate.replace(/{name}/g, userTag);
                 }
 
@@ -295,7 +295,7 @@ export async function GET(req: NextRequest) {
                     try {
                       const dmTextTemplate =
                         page.dmTemplate ||
-                        `សួស្ដីបង {name}! 🌸 អរគុណដែលបាន comment លើទំព័រ ${page.name}។ តើបងចង់ដឹងព័ត៌មានលម្អិត ឬតម្លៃផលិតផលដែរទេ? ខ្ញុំអាចជួយផ្ដល់ការប្រឹក្សាជូនបងបានភ្លាមៗណា! 💬✨`;
+                        `សួស្ដីបង {name}! 🌸 អរគុណដែលបានចាប់អារម្មណ៍លើ【The Magic】គ្រីមម៉ាស្សាសន្លាក់ សរសៃ និងសាច់ដុំ រូបមន្តជប៉ុន 🇯🇵✨\n\n🎁 ប្រូម៉ូសិនពិសេសថ្ងៃនេះ៖\n• ១ ប្រអប់ = $20\n• ទិញ ២ ថែម ១ = $40 (បាន ៣ ប្រអប់)\n• ទិញ ៤ ថែម ២ = $75 (បាន ៦ ប្រអប់)\n\n🚚 ដឹកជញ្ជូនរហ័សទូទាំងប្រទេស! តើបងចង់បានកញ្ចប់មួយណាដែរចាស៎? 💬`;
                       const dmMessage = dmTextTemplate.replace(/{name}/g, userTag);
                       await sendPrivateReply({
                         pageAccessToken: page.accessToken,
