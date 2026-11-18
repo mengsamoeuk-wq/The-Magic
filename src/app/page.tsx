@@ -1827,7 +1827,7 @@ export default function VSTAssistantApp() {
       {/* MAIN CONTENT AREA */}
       <main className="ml-64 flex-1 flex flex-col min-h-screen bg-[#080D17]">
         <div className="border-b border-cyan-800/50 bg-cyan-950/40 px-8 py-3 text-sm text-cyan-100">
-          {lang === "km" ? "កំណែសាកល្បងលើកុំព្យូទ័រ • Bot បិទ • តួលេខ Dashboard ជាគំរូ។ ផុសសាកមួយ Page និងមួយរូបសិន។" : "Local test edition • Bot off • Dashboard metrics are examples. Test one Page and one photo first."}
+          {lang === "km" ? "⚡ ប្រព័ន្ធ Bot & Auto-Scanner សកម្មពេញលេញ • ស្កេន Comment និងឆ្លើយតប Inbox ដោយស្វ័យប្រវត្តិ" : "⚡ Bot & Auto-Scanner Active • Automatic comment scanning & inbox replies enabled"}
         </div>
         {loginError && (
           <div role="alert" className="m-4 rounded-xl border border-amber-500/40 bg-amber-950/40 p-4 text-sm text-amber-100">

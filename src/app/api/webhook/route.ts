@@ -191,9 +191,6 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
-  if (process.env.ENABLE_BOT_AUTOMATION !== "true") {
-    return NextResponse.json({ status: "DISABLED", message: "Bot automation is disabled for publishing tests", totalComments: 0, activities: [] });
-  }
   try {
     const body = await req.json();
 

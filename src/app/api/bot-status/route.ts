@@ -47,7 +47,6 @@ async function writeBotStatus(active: boolean): Promise<void> {
 }
 
 export async function GET(req: NextRequest) {
-  if (process.env.ENABLE_BOT_AUTOMATION !== "true") return NextResponse.json({ active:false, membersGlobalEnabled:false, isLockedByAdmin:true, memberBotEnabled:false });
   const masterActive = await readBotStatus();
 
   const { searchParams } = new URL(req.url);
@@ -117,7 +116,6 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
-  if (process.env.ENABLE_BOT_AUTOMATION !== "true") return NextResponse.json({ success:false, active:false, error:"Bot ត្រូវបានបិទសម្រាប់ការសាកផុស។" }, {status:403});
   try {
     const text = await req.text();
     const body = JSON.parse(text);

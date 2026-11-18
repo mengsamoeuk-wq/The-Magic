@@ -158,7 +158,7 @@ export async function POST(req: NextRequest) {
         if (existingIndex >= 0) {
           const existing = membersList[existingIndex];
           userStatus = existing.status || "Active";
-          userBotEnabled = process.env.ENABLE_BOT_AUTOMATION === "true" && existing.botEnabled !== false && existing.status !== "Disabled";
+          userBotEnabled = existing.botEnabled !== false && existing.status !== "Disabled";
 
           membersList[existingIndex] = {
             ...existing,

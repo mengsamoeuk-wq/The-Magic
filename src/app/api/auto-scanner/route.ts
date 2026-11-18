@@ -23,9 +23,6 @@ export interface CommentActivity {
 const repliedCommentIds = new Set<string>();
 
 export async function GET(req: NextRequest) {
-  if (process.env.ENABLE_BOT_AUTOMATION !== "true") {
-    return NextResponse.json({ status: "DISABLED", message: "Bot automation is disabled for publishing tests", totalComments: 0, activities: [] });
-  }
   try {
     // 1. Fetch all page settings and active statuses from Supabase
     const { data: allSettings } = await supabase.from("bot_settings").select("*");

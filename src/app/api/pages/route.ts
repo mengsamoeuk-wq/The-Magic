@@ -142,9 +142,6 @@ export async function POST(req: NextRequest) {
     const body = await req.json();
     const { action, pageId, isActive, isAdmin, name, category, ownerName, userId, accessToken } = body;
 
-    if (process.env.ENABLE_BOT_AUTOMATION !== "true" && isActive === true) {
-      return NextResponse.json({success:false,error:"Bot ត្រូវបានបិទសម្រាប់ការសាកផុស។"}, {status:403});
-    }
     // A. Connect / Register a New Page (Manual, 1-Click, or FB)
     if (action === "connect" || (pageId && name && ownerName)) {
       if (!pageId || !name) {
